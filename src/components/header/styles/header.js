@@ -148,6 +148,7 @@ export const SearchInput = styled.input`
   border: 1px solid white;
   transition: all 0.5s;
   height: 30px;
+  color: white;
   border-radius: 4px;
   font-size: 14px;
   margin-left: ${({ active }) => (active === true ? "10px" : "0px")};
